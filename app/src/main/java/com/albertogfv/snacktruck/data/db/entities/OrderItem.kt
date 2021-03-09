@@ -1,4 +1,4 @@
-package com.albertogfv.snacktruck
+package com.albertogfv.snacktruck.data.db.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -16,7 +16,7 @@ data class OrderItem(
     var amount: Int
 ) {
     @PrimaryKey(autoGenerate = true)
-    val id: Int? = null
+    var id: Int? = null
 
 }
 
